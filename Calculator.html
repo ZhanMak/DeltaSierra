@@ -1,0 +1,34 @@
+<div id="popup">
+  <h1 class="popup_h1">BMI Calculator</h1>
+  <div class="popup_text">
+    <p class="text_bmi">
+      Body mass index (BMI) is a measure of body fat based on height and weight
+      that applies to adult men and women.
+      <ul>
+        <li>Enter your weight and height using standard or metric measures.</li>
+        <li>Select "Compute BMI" and your BMI will appear below.</li>
+    </ul>
+    </p>
+    <div class="label_calc">
+      <label for="bmi_height">Your Height:</label>
+      <input type="text" id="bmi_height"><br><br>
+      <label for="bmi_weight">Your Weight:</label>
+      <input type="text" id="bmi_weight"><br><br>
+      <input id="bmi_calculate_btn" type="button" value="Compute BMI">
+    </div>
+  
+   
+    <a
+      class="close_calculator"
+      href="#"
+      title="closed"
+      onclick="document.getElementById('bg_popup').style.display='none'; return false;"
+      >x</a
+    >
+
+    <p id="bmi_result">
+
+    </p>
+
+  </div>
+</div>

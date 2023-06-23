@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/black-ops-one"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orelega One"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <title>Delta Sport</title>
+    <link rel="shortcut icon" href="./photo/icon.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Menu -->
+      <div class="menu">
+        <h1 class="heading">
+          Choose your workout
+          <span
+            ><a class="calc" onclick="javascript:show_popup('Calculator.html')">
+              BMI Calculator
+            </a></span
+          >
+        </h1>
+        <div class="backGr">
+          <p>DARE.</p>
+          <p>DO.</p>
+          <p>SUCCEED.</p>
+          <br />
+          <p>JUST</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DO IT.</p>
+          <br />
+          <p>STRIVE.</p>
+          <p>THRIVE.</p>
+          <p>ACHIEVE.</p>
+          <br />
+          <p>Bounce</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;back.</p>
+          <p>Triumph.</p>
+
+          <hr class="end" />
+          <p class="end_p">© Delta Sierra, 2023</p>
+        </div>
+      </div>
+
+      <!-- Beginner -->
+      <div class="Beginner">
+        <h1 class="title">
+          BEGINNER
+          <hr />
+        </h1>
+        <div class="beg_photo">
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/biceps/exercise01.html')"
+          >
+            <img src="./photo/Biceps.jpg" alt="photo_1" />
+            <div class="text">
+              <h1>BICEPS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Grip_Strength/exercise01.html')"
+          >
+            <img src="./photo/Grip Strength.png" alt="photo_2" />
+            <div class="text">
+              <h1>GRIP STREN...</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Triceps/exercise01.html')"
+          >
+            <img src="./photo/triceps.jpg" alt="photo_3" />
+            <div class="text">
+              <h1>TRICEPS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Shoulders/exercise01.html')"
+          >
+            <img src="./photo/Shoulders.png" alt="photo_4" />
+            <div class="text">
+              <h1>SHOUL DERS</h1>
+            </div>
+          </button>
+
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Abs/exercise01.html')"
+          >
+            <img src="./photo/abs.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>ABS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Chest/exercise01.html')"
+          >
+            <img src="./photo/chest.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>CHEST</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Trap/exercise01.html')"
+          >
+            <img src="./photo/trap.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>TRAP</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Calves/exercise01.html')"
+          >
+            <img src="./photo/Calves.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>CALVES</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Glute/exercise01.html')"
+          >
+            <img src="./photo/Glute.png" alt="photo_5" />
+            <div class="text">
+              <h1>GLUTE</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Quads/exercise01.html')"
+          >
+            <img src="./photo/Quads.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>QUADS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Hamstrings/exercise01.html')"
+          >
+            <img src="./photo/Hamstring.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>HAMS TRING</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('beginner/Lats/exercise01.html')"
+          >
+            <img src="./photo/Lat.png" alt="photo_5" />
+            <div class="text">
+              <h1>LAT</h1>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Middle -->
+      <div class="Middle">
+        <h1 class="title">
+          MIDDLE
+          <hr />
+        </h1>
+        <div class="beg_photo">
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/biceps/exercise01.html')"
+          >
+            <img src="./photo/Middle/biceps.jpg" alt="photo_1" />
+            <div class="text">
+              <h1>BICEPS</h1>
+            </div>
+          </button>
+
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Grip_Strength/exercise01.html')"
+          >
+            <img src="./photo/Middle/Grip Strength.jpg" alt="photo_2" />
+            <div class="text">
+              <h1>GRIP STREN...</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Triceps/exercise01.html')"
+          >
+            <img src="./photo/Middle/triceps.png" alt="photo_3" />
+            <div class="text">
+              <h1>TRICEPS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Shoulders/exercise01.html')"
+          >
+            <img src="./photo/Middle/Shoulders.jpg" alt="photo_4" />
+            <div class="text">
+              <h1>SHOUL DERS</h1>
+            </div>
+          </button>
+          <!---------------------------------------------------------------------------------->
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Abs/exercise01.html')"
+          >
+            <img src="./photo/Middle/abs.png" alt="photo_5" />
+            <div class="text">
+              <h1>ABS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Chest/exercise01.html')"
+          >
+            <img src="./photo/Middle/chest.png" alt="photo_5" />
+            <div class="text">
+              <h1>CHEST</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Trap/exercise01.html')"
+          >
+            <img src="./photo/Middle/trap.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>TRAP</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Calves/exercise01.html')"
+          >
+            <img src="./photo/Middle/Calves.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>CALVES</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Glute/exercise01.html')"
+          >
+            <img src="./photo/Middle/glute.png" alt="photo_5" />
+            <div class="text">
+              <h1>GLUTE</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Quads/exercise01.html')"
+          >
+            <img src="./photo/Middle/Quads.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>QUADS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Hamstrings/exercise01.html')"
+          >
+            <img src="./photo/Middle/Hamstring.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>HAMS TRING</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('middle/Lats/exercise01.html')"
+          >
+            <img src="./photo/Middle/lat.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>LAT</h1>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- MASTER -->
+      <div class="MASTER">
+        <h1 class="title">
+          MASTER
+          <hr />
+        </h1>
+        <div class="beg_photo">
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Biceps/exercise01.html')"
+          >
+            <img src="./photo/Master/Biceps.jpg" alt="photo_1" />
+            <div class="text">
+              <h1>BICEPS</h1>
+            </div>
+          </button>
+
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Grip_Strength/exercise01.html')"
+          >
+            <img src="./photo/Master/Grip Strength.jpg" alt="photo_2" />
+            <div class="text">
+              <h1>GRIP STREN...</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Triceps/exercise01.html')"
+          >
+            <img src="./photo/Master/triceps.png" alt="photo_3" />
+            <div class="text">
+              <h1>TRICEPS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Shoulders/exercise01.html')"
+          >
+            <img src="./photo/shoulders.jpg" alt="photo_4" />
+            <div class="text">
+              <h1>SHOUL DERS</h1>
+            </div>
+          </button>
+
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Abs/exercise01.html')"
+          >
+            <img src="./photo/Master/abs.png" alt="photo_5" />
+            <div class="text">
+              <h1>ABS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Chest/exercise01.html')"
+          >
+            <img src="./photo/Master/chest.png" alt="photo_5" />
+            <div class="text">
+              <h1>CHEST</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Trap/exercise01.html')"
+          >
+            <img src="./photo/Master/trap.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>TRAP</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Calves/exercise01.html')"
+          >
+            <img src="./photo/Master/Calves.png" alt="photo_5" />
+            <div class="text">
+              <h1>CALVES</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Glute/exercise01.html')"
+          >
+            <img src="./photo/Master/glute.png" alt="photo_5" />
+            <div class="text">
+              <h1>GLUTE</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Quads/exercise01.html')"
+          >
+            <img src="./photo/Master/Quads.png" alt="photo_5" />
+            <div class="text">
+              <h1>QUADS</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Hamstrings/exercise01.html')"
+          >
+            <img src="./photo/Master/Hamstrings.jpg" alt="photo_5" />
+            <div class="text">
+              <h1>HAMS TRING</h1>
+            </div>
+          </button>
+          <button
+            class="photo_beg"
+            onclick="javascript:show_popup('master/Lats/exercise01.html')"
+          >
+            <img src="./photo/Master/lat.png" alt="photo_5" />
+            <div class="text">
+              <h1>LAT</h1>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="bg_popup"></div>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var delay_popup = 5000;
+        setTimeout("show_popup('warning.html')", delay_popup);
+        $(document).on("click", "#bmi_calculate_btn", function () {
+          bmi_height = parseFloat($("#bmi_height").val());
+          bmi_weight = parseFloat($("#bmi_weight").val());
+          bmi = (bmi_weight / (bmi_height * bmi_height)) * 10000;
+          bmi_ = bmi.toFixed(1);
+
+          if (18.5 < bmi_ <= 24.9) {
+            document.getElementById("bmi_result").style.color = "#25e614";
+          }
+          if (bmi_ <= 18.5) {
+            document.getElementById("bmi_result").style.color = "#667799";
+          }
+          if (bmi_ >= 25) {
+            document.getElementById("bmi_result").style.color = "#f01717";
+          }
+
+          $("#bmi_result").html(bmi_.toString());
+        });
+      });
+      function show_popup(page_url) {
+        // Load page content into <div id="bg_popup">
+        $("#bg_popup").load(page_url);
+        document.getElementById("bg_popup").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
