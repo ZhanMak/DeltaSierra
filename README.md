@@ -13,3 +13,5 @@ Summer Practice 2023
 5) Для того щоб відкрити сайт в IIS Express треба його запустити. <img width="123" alt="image" src="https://github.com/ZhanMak/DeltaSierra/assets/100063141/15a0e0bd-3e2d-4e80-8fc4-358469b8f3bb">
 6) Сайт буде працювати тільки коли він запущенний. 
 
+## Вирішення проблем
+У випадку виникнення проблем можна інсталювати програму IIS Express та запускати програму за допомогою VSC, відкриваючи файл "index.html", натискаючи F1 і обираючи опцію "IIS-EE: Start IIS Express server from current file"
